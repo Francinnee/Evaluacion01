@@ -1,0 +1,86 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+
+/*reset*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*color de fondo*/
+body{
+    background-color: whitesmoke;   
+}
+
+/*encabezado*/
+header{
+    background-color: peachpuff;
+    text-align: center ;
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
+
+/* */
+.perfil {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 60px;
+    border:5px solid peachpuff;
+}
+
+.perfil img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.perfil h2 {
+    color: #333;
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.perfil p {
+    color: black;
+    margin-bottom: 15px;
+}
+
+.perfil h3 {
+    color: goldenrod;
+    margin-bottom: 10px;
+}
+
+.perfil a {
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.perfil h4{
+    color: goldenrod;
+}
+
+.perfil address{
+    color: black;
+    margin-bottom: 15px;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: peachpuff;
+    color: black;
+}
